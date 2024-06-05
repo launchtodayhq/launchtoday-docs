@@ -1,61 +1,33 @@
 ---
 title: Introduction
-description: 'Welcome to the Launchtoday documentation. Here, you will find essential information on the React Native boilerplate, including guidance on getting started, explanations of integrations, best practices and resources to assist you in building your app.'
+description: 'Welcome to the Launchtoday documentation. Here, you will find essential information on the React Native boilerplate,
+including guidance on getting started, info on integrations, best practices and resources to assist you in building your app.'
 ---
 
+## Quick Recap
 
-## Setting up
+LaunchToday is a React Native boilerplate app designed to help startups and indie developers build and launch their mobile apps fast.
+It shifts the focus away from extensive setup, incorporating practical features such as authentication, payments, data handling, analytics,
+real-time alerts and push notifications.
 
-The first step to world-class documentation is setting up your editing environments.
+This boilerplate is organized into two GitHub repositories. The primary repository contains the complete React Native application code (built
+with [Expo](https://expo.dev/)) with the following integrations:
+ - [Supabase](https://supabase.com/) for authentication and a Postgres database
+ - [Stripe](https://stripe.com/) and [RevenueCat](https://www.revenuecat.com/) for payments
+ - [Sentry](https://sentry.io/) for monitoring the health of your app
+ - [Segment](https://segment.com/) for analytics
+ - [Stream](https://getstream.io/) for chat and video calling features
+ - [Firebase](https://firebase.google.com/) for push notifications
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
-  </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
-  </Card>
-</CardGroup>
+The secondary repository functions as a backend API service, interacting with the mobile application. It currently supports
+processing payments with Stripe and sending push notifications with Firebase and Apple Push Notification Server.
 
-## Make it yours
+## Join the community
+Additionally, support is provided through a dedicated [Discord](https://discord.gg/8RU6VUvuWK) channel where
+you can seek assistance, learn more about the boilerplate, and engage with the community.
 
-Update your docs to your brand and add valuable content for the best user conversion.
 
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
-  </Card>
-</CardGroup>
+## Getting started
+The first step is to go through a brief overview of the codebase and it's dependencies.
+
+

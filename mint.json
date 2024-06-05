@@ -17,6 +17,10 @@
   },
   "topbarLinks": [
     {
+      "name": "Get the boilerplate",
+      "url": "https://launchtoday.dev"
+    },
+    {
       "name": "Support",
       "url": "mailto:hi@mintlify.com"
     }
@@ -34,13 +38,53 @@
     {
       "name": "Github",
       "icon": "github",
-      "url": "https://discord.gg/Vvq7s469C6"
+      "url": "https://github.com/launchtodayhq/launchtoday-docs"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": ["introduction", "quickstart", "development"]
+    },
+    {
+      "group": "Firebase",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "Segment",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "Stripe",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "RevenueCat",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "Sentry",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "Supabase",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "Stream",
+      "pages": ["stream/markdown"]
+    },
+    {
+      "group": "Getting your app ready for production",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "Post setup",
+      "pages": ["sentry/markdown"]
+    },
+    {
+      "group": "Articles",
+      "pages": ["articles/stripe-platform-extensions"]
     },
     {
       "group": "Essentials",
@@ -53,6 +97,7 @@
         "essentials/reusable-snippets"
       ]
     },
+
     {
       "group": "API Documentation",
       "pages": ["api-reference/introduction"]

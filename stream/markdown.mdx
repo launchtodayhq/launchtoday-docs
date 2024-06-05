@@ -1,0 +1,17 @@
+---
+title: 'Stream Integration'
+description: 'Text, title, and styling in standard markdown'
+icon: 'code'
+---
+
+## Introduction
+
+The boilerplate app supports Chat using [Stream](https://getstream.io/) which provides an SDK. Currently the app supports Chat but video and audio
+is coming soon. If you need specific support with implementing this, reach out in the discord.
+
+
+### Prerequisites
+
+This feature depends on an entry in the `profiles` Postgres table in Supabase. If your app needs this feature, ensure you have enabled the onboarding
+flow. Alternatively, you can manually insert a row into the said table (along with an avatar image). This ensures that you can message the list of signed
+in users in the app
